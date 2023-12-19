@@ -51,7 +51,7 @@ namespace DesafioFundamentos.Models
 
                 for (int contador = 0; contador < veiculos.Count; contador++)
                 {
-                    Console.WriteLine($"Carro estacionado n° {contador + 1}: - {veiculos[contador]}");
+                    Console.WriteLine($"{contador + 1}º - Carro: - {veiculos[contador]}");
                 }
             }
             else
